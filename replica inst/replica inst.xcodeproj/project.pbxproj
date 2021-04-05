@@ -7,23 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		92E655B9261B884400B7A80B /* replica_instApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E655B8261B884300B7A80B /* replica_instApp.swift */; };
-		92E655BB261B884400B7A80B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E655BA261B884400B7A80B /* ContentView.swift */; };
-		92E655BD261B885D00B7A80B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92E655BC261B885D00B7A80B /* Assets.xcassets */; };
-		92E655C0261B885D00B7A80B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92E655BF261B885D00B7A80B /* Preview Assets.xcassets */; };
+		92E655D5261B8C9700B7A80B /* replica_instApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E655D4261B8C9700B7A80B /* replica_instApp.swift */; };
+		92E655D7261B8C9700B7A80B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E655D6261B8C9700B7A80B /* ContentView.swift */; };
+		92E655D9261B8CA000B7A80B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92E655D8261B8CA000B7A80B /* Assets.xcassets */; };
+		92E655DC261B8CA000B7A80B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92E655DB261B8CA000B7A80B /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		92E655B5261B884300B7A80B /* replica_inst.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = replica_inst.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		92E655B8261B884300B7A80B /* replica_instApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = replica_instApp.swift; sourceTree = "<group>"; };
-		92E655BA261B884400B7A80B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		92E655BC261B885D00B7A80B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		92E655BF261B885D00B7A80B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		92E655C1261B885D00B7A80B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92E655D1261B8C9700B7A80B /* replica inst.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "replica inst.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		92E655D4261B8C9700B7A80B /* replica_instApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = replica_instApp.swift; sourceTree = "<group>"; };
+		92E655D6261B8C9700B7A80B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		92E655D8261B8CA000B7A80B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		92E655DB261B8CA000B7A80B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		92E655DD261B8CA000B7A80B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		92E655B2261B884300B7A80B /* Frameworks */ = {
+		92E655CE261B8C9700B7A80B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -33,38 +33,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		92E655AC261B884200B7A80B = {
+		92E655C8261B8C9700B7A80B = {
 			isa = PBXGroup;
 			children = (
-				92E655B7261B884300B7A80B /* replica_inst */,
-				92E655B6261B884300B7A80B /* Products */,
+				92E655D3261B8C9700B7A80B /* replica inst */,
+				92E655D2261B8C9700B7A80B /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		92E655B6261B884300B7A80B /* Products */ = {
+		92E655D2261B8C9700B7A80B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				92E655B5261B884300B7A80B /* replica_inst.app */,
+				92E655D1261B8C9700B7A80B /* replica inst.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		92E655B7261B884300B7A80B /* replica_inst */ = {
+		92E655D3261B8C9700B7A80B /* replica inst */ = {
 			isa = PBXGroup;
 			children = (
-				92E655B8261B884300B7A80B /* replica_instApp.swift */,
-				92E655BA261B884400B7A80B /* ContentView.swift */,
-				92E655BC261B885D00B7A80B /* Assets.xcassets */,
-				92E655C1261B885D00B7A80B /* Info.plist */,
-				92E655BE261B885D00B7A80B /* Preview Content */,
+				92E655D4261B8C9700B7A80B /* replica_instApp.swift */,
+				92E655D6261B8C9700B7A80B /* ContentView.swift */,
+				92E655D8261B8CA000B7A80B /* Assets.xcassets */,
+				92E655DD261B8CA000B7A80B /* Info.plist */,
+				92E655DA261B8CA000B7A80B /* Preview Content */,
 			);
-			path = replica_inst;
+			path = "replica inst";
 			sourceTree = "<group>";
 		};
-		92E655BE261B885D00B7A80B /* Preview Content */ = {
+		92E655DA261B8CA000B7A80B /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				92E655BF261B885D00B7A80B /* Preview Assets.xcassets */,
+				92E655DB261B8CA000B7A80B /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -72,38 +72,38 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		92E655B4261B884300B7A80B /* replica_inst */ = {
+		92E655D0261B8C9700B7A80B /* replica inst */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 92E655C4261B885D00B7A80B /* Build configuration list for PBXNativeTarget "replica_inst" */;
+			buildConfigurationList = 92E655E0261B8CA000B7A80B /* Build configuration list for PBXNativeTarget "replica inst" */;
 			buildPhases = (
-				92E655B1261B884300B7A80B /* Sources */,
-				92E655B2261B884300B7A80B /* Frameworks */,
-				92E655B3261B884300B7A80B /* Resources */,
+				92E655CD261B8C9700B7A80B /* Sources */,
+				92E655CE261B8C9700B7A80B /* Frameworks */,
+				92E655CF261B8C9700B7A80B /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = replica_inst;
-			productName = replica_inst;
-			productReference = 92E655B5261B884300B7A80B /* replica_inst.app */;
+			name = "replica inst";
+			productName = "replica inst";
+			productReference = 92E655D1261B8C9700B7A80B /* replica inst.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		92E655AD261B884200B7A80B /* Project object */ = {
+		92E655C9261B8C9700B7A80B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1240;
 				LastUpgradeCheck = 1240;
 				TargetAttributes = {
-					92E655B4261B884300B7A80B = {
+					92E655D0261B8C9700B7A80B = {
 						CreatedOnToolsVersion = 12.4;
 					};
 				};
 			};
-			buildConfigurationList = 92E655B0261B884200B7A80B /* Build configuration list for PBXProject "replica_inst" */;
+			buildConfigurationList = 92E655CC261B8C9700B7A80B /* Build configuration list for PBXProject "replica inst" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -111,42 +111,42 @@
 				en,
 				Base,
 			);
-			mainGroup = 92E655AC261B884200B7A80B;
-			productRefGroup = 92E655B6261B884300B7A80B /* Products */;
+			mainGroup = 92E655C8261B8C9700B7A80B;
+			productRefGroup = 92E655D2261B8C9700B7A80B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				92E655B4261B884300B7A80B /* replica_inst */,
+				92E655D0261B8C9700B7A80B /* replica inst */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		92E655B3261B884300B7A80B /* Resources */ = {
+		92E655CF261B8C9700B7A80B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				92E655C0261B885D00B7A80B /* Preview Assets.xcassets in Resources */,
-				92E655BD261B885D00B7A80B /* Assets.xcassets in Resources */,
+				92E655DC261B8CA000B7A80B /* Preview Assets.xcassets in Resources */,
+				92E655D9261B8CA000B7A80B /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		92E655B1261B884300B7A80B /* Sources */ = {
+		92E655CD261B8C9700B7A80B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				92E655BB261B884400B7A80B /* ContentView.swift in Sources */,
-				92E655B9261B884400B7A80B /* replica_instApp.swift in Sources */,
+				92E655D7261B8C9700B7A80B /* ContentView.swift in Sources */,
+				92E655D5261B8C9700B7A80B /* replica_instApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		92E655C2261B885D00B7A80B /* Debug */ = {
+		92E655DE261B8CA000B7A80B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -207,7 +207,7 @@
 			};
 			name = Debug;
 		};
-		92E655C3261B885D00B7A80B /* Release */ = {
+		92E655DF261B8CA000B7A80B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -262,16 +262,16 @@
 			};
 			name = Release;
 		};
-		92E655C5261B885D00B7A80B /* Debug */ = {
+		92E655E1261B8CA000B7A80B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"replica_inst/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"replica inst/Preview Content\"";
 				DEVELOPMENT_TEAM = 48RSDSQJLU;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = replica_inst/Info.plist;
+				INFOPLIST_FILE = "replica inst/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -284,16 +284,16 @@
 			};
 			name = Debug;
 		};
-		92E655C6261B885D00B7A80B /* Release */ = {
+		92E655E2261B8CA000B7A80B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"replica_inst/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"replica inst/Preview Content\"";
 				DEVELOPMENT_TEAM = 48RSDSQJLU;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = replica_inst/Info.plist;
+				INFOPLIST_FILE = "replica inst/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -309,25 +309,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		92E655B0261B884200B7A80B /* Build configuration list for PBXProject "replica_inst" */ = {
+		92E655CC261B8C9700B7A80B /* Build configuration list for PBXProject "replica inst" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				92E655C2261B885D00B7A80B /* Debug */,
-				92E655C3261B885D00B7A80B /* Release */,
+				92E655DE261B8CA000B7A80B /* Debug */,
+				92E655DF261B8CA000B7A80B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		92E655C4261B885D00B7A80B /* Build configuration list for PBXNativeTarget "replica_inst" */ = {
+		92E655E0261B8CA000B7A80B /* Build configuration list for PBXNativeTarget "replica inst" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				92E655C5261B885D00B7A80B /* Debug */,
-				92E655C6261B885D00B7A80B /* Release */,
+				92E655E1261B8CA000B7A80B /* Debug */,
+				92E655E2261B8CA000B7A80B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 92E655AD261B884200B7A80B /* Project object */;
+	rootObject = 92E655C9261B8C9700B7A80B /* Project object */;
 }

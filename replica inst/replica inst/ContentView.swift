@@ -1,6 +1,6 @@
 //
 //  ContentView.swift
-//  replica_inst
+//  replica inst
 //
 //  Created by  Denis on 05.04.2021.
 //

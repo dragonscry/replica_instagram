@@ -13,11 +13,23 @@ struct ContentView: View {
             Color(#colorLiteral(red: 1.0, green: 1.0, blue: 1.0, alpha: 1.0)).ignoresSafeArea(.all)
             VStack {
                 TopNav()
-                Spacer()
                 
                 Story()
                 InstaText()
+                
+                ScrollView (.horizontal, showsIndicators: false) {
+                    HStack (spacing: 30) {
+                        ForEach(/*@START_MENU_TOKEN@*/0 ..< 5/*@END_MENU_TOKEN@*/) { item in
+                            CardView()
+                        }
+                        .padding(.bottom, 180)
+                    }
+                    .frame(height: 500)
+                    .padding(.leading, 25)
+                }
+                
                 Spacer()
+                
                 TaskBar()
             }
         }
@@ -113,5 +125,50 @@ struct TaskBar: View {
             Image(systemName: "person")
                 .resizable().frame(width: 22, height: 22)
         }
+    }
+}
+
+struct CardView: View {
+    var body: some View {
+        VStack {
+            Image("one")
+                .resizable()
+                .frame(width: 65, height: 65)
+                .cornerRadius(30)
+            Text("user")
+                .font(.system(size: 15, weight: .bold, design: .rounded))
+            Text("User Name")
+                .font(.system(size: 12, weight: .medium, design: .rounded))
+                .foregroundColor(.gray)
+                .padding(.top, 3)
+            HStack(spacing:5){
+                Image("one_rec")
+                    .resizable()
+                    .frame(width: 60, height: 60)
+                Image("one_rec")
+                    .resizable()
+                    .frame(width: 60, height: 60)
+                Image("one_rec")
+                    .resizable()
+                    .frame(width: 60, height: 60)
+            }
+            Text("Suggest for you")
+                .font(.system(size: 12, weight: .medium, design: .rounded))
+                .foregroundColor(.gray)
+                .padding(.vertical, 20)
+            Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
+                Text("Follow")
+                    .foregroundColor(.white)
+                    .font(.system(size: 15, weight: .medium, design: .rounded))
+            }
+            .frame(width: 140, height: 34)
+            .background(Color(#colorLiteral(red: 0.03921568627, green: 0.5176470588, blue: 1, alpha: 1)))
+            .cornerRadius(10)
+            
+            
+        }.frame(width: 200, height: 300)
+        .background(Color(#colorLiteral(red: 1.0, green: 1.0, blue: 1.0, alpha: 1.0)))
+        .cornerRadius(20)
+        .shadow(color: Color(#colorLiteral(red: 0, green: 0, blue: 0, alpha: 1)).opacity(0.1), radius: 20, x: 0, y: 20)
     }
 }
